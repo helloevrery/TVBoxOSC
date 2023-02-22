@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitlab.com/xuexiyuandi/tv/-/raw/main/xue1");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://gitee.com/ududu/tv/raw/master/xue1.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
